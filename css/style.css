@@ -1,0 +1,55 @@
+@import './reset.css';
+:root{
+    --primary--color:#6C3CE7;
+    --white--color:#F6F7FC;
+    --gray-color:#463F57;
+    --body--font:'Ubuntu', sans-serif;
+    
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--body--font);
+    background-color: var(--white--color);
+}
+/* navbar */
+#navbar {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.navbar__logo img{
+    width: 6rem;
+    height: 6rem;
+}
+.navbar__menu{
+    display: flex;
+}
+.navbar__menu__item{
+    padding: 0 0.75rem;
+    margin-top: -0.625rem;
+}
+.navbar__menu__item i:hover{
+    cursor: pointer;
+    color: #000D6B;
+}
+.navbar__menu__item i{
+    color: var(--primary--color);
+    font-size: 1.875rem;
+}
+.main__title{
+    font-weight: 500;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5rem;
+    color: var(--gray-color);
+}
+.main__title::after{
+    content: "";
+    display: block;
+    width: 10rem;
+    border-bottom: 0.1875rem solid var(--primary--color);
+    margin: 1.25rem auto;
+}
