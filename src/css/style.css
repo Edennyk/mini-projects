@@ -1,0 +1,109 @@
+@import './reset.css';
+:root {
+    --primary--color: #6C3CE7;
+    --white--color: #F6F7FC;
+    --gray-color: #463F57;
+    --body--font: 'Ubuntu', sans-serif;
+
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--body--font);
+    background-color: var(--white--color);
+}
+/* header-navbar */
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navbar__logo img {
+    width: 6rem;
+    height: 6rem;
+}
+.navbar__menu {
+    display: flex;
+}
+.navbar__menu__item {
+    padding: 0 0.75rem;
+    margin-top: -0.625rem;
+}
+.navbar__menu__item i:hover {
+    cursor: pointer;
+    color: #000D6B;
+}
+.navbar__menu__item i {
+    color: var(--primary--color);
+    font-size: 1.875rem;
+}
+/* main title */
+.main__title {
+    font-weight: 500;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5rem;
+    color: var(--gray-color);
+}
+.main__title::after {
+    content: "";
+    display: block;
+    width: 10rem;
+    border-bottom: 0.1875rem solid var(--primary--color);
+    margin: 1.25rem auto;
+}
+/* main container */
+.project__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(330px,1fr));
+    gap: 1.5rem 2rem;
+    width: 90vw;
+    max-width: 1120px;
+    margin: 0 auto 2rem;
+    align-content: stretch;
+}
+.project__list {
+    margin-top: 1.875rem;
+    position: relative;
+}
+.projcet__img {
+    line-height: 0;
+    overflow: hidden;
+}
+.projcet__img img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+}
+.project__list img {
+    width: 100%;
+    height: 330px;
+}
+.project__title {
+    font-size: 2.5em;
+    font-weight: 700;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+    background: rgba(108,60,231,0.3);
+    color: #170055;
+
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project__list:hover .project__title {
+    opacity: 0.8;
+}
+.project__list:hover .projcet__img img {
+    filter: blur(2px);
+}
