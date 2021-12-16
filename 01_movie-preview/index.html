@@ -1,287 +1,328 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Movie Preview List</title>
-  <link rel="stylesheet" href="src/styles/reset.css">
-  <link rel="stylesheet" href="src/styles/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">  
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-</head>
-<body>
-  <h1 class="sr-only">CineLand</h1>
-  <section class="cont-movie">
-    <!-- header and nav -->
-    <h2 class="title-cont">CineLand Movie Lists</h2>
-    <header>
-      <h3 class="sr-only">Movies Information</h3>
-      <nav class="nav-movie">
-        <ul class="list-movie">
-          <li class="on"><a href="#none" class="link-nav">Now Playing</a></li>
-          <li><a href="" class="link-nav">Coming Soon</a></li>
-          <li><a href="" class="link-nav">Box Office</a></li>
-        </ul>
-      </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Movie Preview List</title>
+        <link rel="stylesheet" href="src/styles/reset.css">
+        <link rel="stylesheet" href="src/styles/style.css">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+            rel="stylesheet">
+        <link
+            rel="stylesheet"
+            href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        <!-- Favicon -->
+        <link rel="icon" type="imgs/png" href="./src/images/favicon.ico"/>
+    </head>
+    <body>
+        <h1 class="sr-only">CineLand</h1>
+        <section class="cont-movie">
+            <!-- header and nav -->
+            <h2 class="title-cont">CineLand Movie Lists</h2>
+            <header>
+                <h3 class="sr-only">Movies Information</h3>
+                <nav class="nav-movie">
+                    <ul class="list-movie">
+                        <li class="on">
+                            <a href="#none" class="link-nav">Now Playing</a>
+                        </li>
+                        <li>
+                            <a href="" class="link-nav">Coming Soon</a>
+                        </li>
+                        <li>
+                            <a href="" class="link-nav">Box Office</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
 
-    <!-- main movie contents-->
-    <section>
-      <h3 class="sr-only">Now Playing Movies List</h3>
-      <ul class="list-movieInfo">
-        <li>
-          <article>
-            <h4 class="sr-only">Movie Detail</h4>
-            <a href="#none" class="link-movie">
-              <img src="src/images/elcanto.jpg" alt="Encanto">
-            </a>
-            <strong class="title-movie sl-ellipsis">Encanto</strong>
-            <dl class="list-info">
-              <div>
-                <dt>Genre</dt>
-                <dd>Ani</dd>
-              </div>
-              <div class="item-star">
-                <dt>Rate</dt>
-                <dd>4.5</dd>
-              </div>
-              <div>
-                <dt>Date</dt>
-                <dd>Nov 24, 2021</dd>
-              </div>
-              <div>
-                <dt>Cast</dt>
-                <dd class="multi-ellipsis">Stephanie Beatriz, John Leguizamo, Wilmer Valderrama</dd>
-              </div>
-            </dl>
-          </article>
-           <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i class="uil uil-play-circle"></i>Trailer</a>
-        </li>
-             <li>
-          <article>
-            <h4 class="sr-only">Movie Detail</h4>
-            <a href="#none" class="link-movie">
-              <img src="src/images/Ghostbusters.jpg" alt="Ghostbusters: Afterlife">
-            </a>
-            <strong class="title-movie sl-ellipsis">Ghostbusters: Afterlife</strong>
-            <dl class="list-info">
-              <div>
-                <dt>Genre</dt>
-                <dd>Action</dd>
-              </div>
-              <div class="item-star">
-                <dt>Rate</dt>
-                <dd>4.5</dd>
-              </div>
-              <div>
-                <dt>Date</dt>
-                <dd>Nov 19, 2021</dd>
-              </div>
-              <div>
-                <dt>Cast</dt>
-                <dd class="multi-ellipsis">Marlon Kazadi, Sydney Mae Diaz, Carrie Coon, Finn Wolfhard, McKenna Grace, Paul Rudd</dd>
-              </div>
-            </dl>
-          </article>
-           <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i class="uil uil-play-circle"></i>Trailer</a>
-        </li>
-             <li>
-          <article>
-            <h4 class="sr-only">Movie Detail</h4>
-            <a href="#none" class="link-movie">
-              <img src="src/images/House.jpg" alt="House Of Gucci">
-            </a>
-            <strong class="title-movie sl-ellipsis">House Of Gucci</strong>
-            <dl class="list-info">
-              <div>
-                <dt>Genre</dt>
-                <dd>Drama</dd>
-              </div>
-              <div class="item-star">
-                <dt>Rate</dt>
-                <dd>4.5</dd>
-              </div>
-              <div>
-                <dt>Date</dt>
-                <dd>Nov 24, 2021</dd>
-              </div>
-              <div>
-                <dt>Cast</dt>
-                <dd class="multi-ellipsis">Lady Gaga, Adam Driver, Jared Leto, Al Pacino, Jack Huston, Reeve Carney, Jeremy Irons, Camille Cottin</dd>
-              </div>
-            </dl>
-          </article>
-           <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i class="uil uil-play-circle"></i>Trailer</a>
-        </li>
-             <li>
-          <article>
-            <h4 class="sr-only">Movie Detail</h4>
-            <a href="#none" class="link-movie">
-              <img src="src/images/Resident.jpg" alt="Resident Evil: Welcome to Raccoon City">
-            </a>
-            <strong class="title-movie sl-ellipsis">Resident Evil: Welcome to Raccoon City</strong>
-            <dl class="list-info">
-              <div>
-                <dt>Genre</dt>
-                <dd>Action</dd>
-              </div>
-              <div class="item-star">
-                <dt>Rate</dt>
-                <dd>4.5</dd>
-              </div>
-              <div>
-                <dt>Date</dt>
-                <dd>Nov 24, 2021</dd>
-              </div>
-              <div>
-                <dt>Cast</dt>
-                <dd class="multi-ellipsis">Kaya Scoldelario, Kaya Scodelario, Robbie Amell, Hannah John-Kamen, Avan Jogia, Tom Hopper</dd>
-              </div>
-            </dl>
-          </article>
-           <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i class="uil uil-play-circle"></i>Trailer</a>
-        </li>
-             <li>
-          <article>
-            <h4 class="sr-only">Movie Detail</h4>
-            <a href="#none" class="link-movie">
-              <img src="src/images/king.jpg" alt="King Richard">
-            </a>
-            <strong class="title-movie sl-ellipsis">King Richard</strong>
-            <dl class="list-info">
-              <div>
-                <dt>Genre</dt>
-                <dd>Drama</dd>
-              </div>
-              <div class="item-star">
-                <dt>Rate</dt>
-                <dd>4.5</dd>
-              </div>
-              <div>
-                <dt>Date</dt>
-                <dd>Nov 19, 2021</dd>
-              </div>
-              <div>
-                <dt>Cast</dt>
-                <dd class="multi-ellipsis">Will Smith, Will Smith, Aunjanue Ellis, Jon Bernthal, Saniyya Sidney, Demi Singleton, Tony Goldwyn</dd>
-              </div>
-            </dl>
-          </article>
-           <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i class="uil uil-play-circle"></i>Trailer</a>
-        </li>
-             <li>
-          <article>
-            <h4 class="sr-only">Movie Detail</h4>
-            <a href="#none" class="link-movie">
-              <img src="src/images/cmon.jpg" alt="C'mon C'mon">
-            </a>
-            <strong class="title-movie sl-ellipsis">C'mon C'mon</strong>
-            <dl class="list-info">
-              <div>
-                <dt>Genre</dt>
-                <dd>Drama</dd>
-              </div>
-              <div class="item-star">
-                <dt>Rate</dt>
-                <dd>4.5</dd>
-              </div>
-              <div>
-                <dt>Date</dt>
-                <dd>Nov 26, 2021</dd>
-              </div>
-              <div>
-                <dt>Cast</dt>
-                <dd class="multi-ellipsis">Joaquin Phoenix, Gaby Hoffmann, Woody Norman, Scoot McNairy, Jaboukie Young White</dd>
-              </div>
-            </dl>
-          </article>
-           <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i class="uil uil-play-circle"></i>Trailer</a>
-        </li>
-             <li>
-          <article>
-            <h4 class="sr-only">Movie Detail</h4>
-            <a href="#none" class="link-movie">
-              <img src="src/images/elcanto.jpg" alt="The Matrix Resurrections">
-            </a>
-            <strong class="title-movie sl-ellipsis">The Matrix Resurrections</strong>
-            <dl class="list-info">
-              <div>
-                <dt>Genre</dt>
-                <dd>Action</dd>
-              </div>
-              <div class="item-star">
-                <dt>Rate</dt>
-                <dd>4.5</dd>
-              </div>
-              <div>
-                <dt>Date</dt>
-                <dd>Nov 22, 2021</dd>
-              </div>
-              <div>
-                <dt>Cast</dt>
-                <dd class="multi-ellipsis">Keanu Reeves, Carrie-Anne Moss, Yahya Abdul-Mateen II, Neil Patrick Harris, Jada Pinkett Smith, Daniel Bernhardt, Jessica Henwick</dd>
-              </div>
-            </dl>
-          </article>
-           <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i class="uil uil-play-circle"></i>Trailer</a>
-        </li>
-             <li>
-          <article>
-            <h4 class="sr-only">Movie Detail</h4>
-            <a href="#none" class="link-movie">
-              <img src="src/images/spider.jpg" alt="Spider-Man: No Way Home">
-            </a>
-            <strong class="title-movie sl-ellipsis">Spider-Man: No Way Home</strong>
-            <dl class="list-info">
-              <div>
-                <dt>Genre</dt>
-                <dd>Action</dd>
-              </div>
-              <div class="item-star">
-                <dt>Rate</dt>
-                <dd>4.5</dd>
-              </div>
-              <div>
-                <dt>Date</dt>
-                <dd>Nov 17, 2021</dd>
-              </div>
-              <div>
-                <dt>Cast</dt>
-                <dd class="multi-ellipsis">Tom Holland, Tom Holland, Zendaya, Benedict Cumberbatch, Jon Favreau, Jacob Batalon</dd>
-              </div>
-            </dl>
-          </article>
-           <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i class="uil uil-play-circle"></i>Trailer</a>
-        </li>
-      </ul>
-    </section>
-  </section>
+            <!-- main movie contents-->
+            <section>
+                <h3 class="sr-only">Now Playing Movies List</h3>
+                <ul class="list-movieInfo">
+                    <li>
+                        <article>
+                            <h4 class="sr-only">Movie Detail</h4>
+                            <a href="#none" class="link-movie">
+                                <img src="src/images/elcanto.jpg" alt="Encanto">
+                            </a>
+                            <strong class="title-movie sl-ellipsis">Encanto</strong>
+                            <dl class="list-info">
+                                <div>
+                                    <dt>Genre</dt>
+                                    <dd>Ani</dd>
+                                </div>
+                                <div class="item-star">
+                                    <dt>Rate</dt>
+                                    <dd>4.5</dd>
+                                </div>
+                                <div>
+                                    <dt>Date</dt>
+                                    <dd>Nov 24, 2021</dd>
+                                </div>
+                                <div>
+                                    <dt>Cast</dt>
+                                    <dd class="multi-ellipsis">Stephanie Beatriz, John Leguizamo, Wilmer Valderrama</dd>
+                                </div>
+                            </dl>
+                        </article>
+                    <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i
+                            class="uil uil-play-circle"></i>Trailer</a>
+                    </li>
+                    <li>
+                        <article>
+                            <h4 class="sr-only">Movie Detail</h4>
+                            <a href="#none" class="link-movie">
+                                <img src="src/images/Ghostbusters.jpg" alt="Ghostbusters: Afterlife">
+                            </a>
+                            <strong class="title-movie sl-ellipsis">Ghostbusters: Afterlife</strong>
+                            <dl class="list-info">
+                                <div>
+                                    <dt>Genre</dt>
+                                    <dd>Action</dd>
+                                </div>
+                                <div class="item-star">
+                                    <dt>Rate</dt>
+                                    <dd>4.5</dd>
+                                </div>
+                                <div>
+                                    <dt>Date</dt>
+                                    <dd>Nov 19, 2021</dd>
+                                </div>
+                                <div>
+                                    <dt>Cast</dt>
+                                    <dd class="multi-ellipsis">Marlon Kazadi, Sydney Mae Diaz, Carrie Coon, Finn
+                                        Wolfhard, McKenna Grace, Paul Rudd</dd>
+                                </div>
+                            </dl>
+                        </article>
+                    <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i
+                            class="uil uil-play-circle"></i>Trailer</a>
+                    </li>
+                    <li>
+                        <article>
+                            <h4 class="sr-only">Movie Detail</h4>
+                            <a href="#none" class="link-movie">
+                                <img src="src/images/House.jpg" alt="House Of Gucci">
+                            </a>
+                            <strong class="title-movie sl-ellipsis">House Of Gucci</strong>
+                            <dl class="list-info">
+                                <div>
+                                    <dt>Genre</dt>
+                                    <dd>Drama</dd>
+                                </div>
+                                <div class="item-star">
+                                    <dt>Rate</dt>
+                                    <dd>4.5</dd>
+                                </div>
+                                <div>
+                                    <dt>Date</dt>
+                                    <dd>Nov 24, 2021</dd>
+                                </div>
+                                <div>
+                                    <dt>Cast</dt>
+                                    <dd class="multi-ellipsis">Lady Gaga, Adam Driver, Jared Leto, Al Pacino, Jack
+                                        Huston, Reeve Carney, Jeremy Irons, Camille Cottin</dd>
+                                </div>
+                            </dl>
+                        </article>
+                        <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i
+                                class="uil uil-play-circle"></i>Trailer</a>
+                    </li>
+                    <li>
+                        <article>
+                            <h4 class="sr-only">Movie Detail</h4>
+                            <a href="#none" class="link-movie">
+                                <img src="src/images/Resident.jpg" alt="Resident Evil: Welcome to Raccoon City">
+                            </a>
+                            <strong class="title-movie sl-ellipsis">Resident Evil: Welcome to Raccoon City</strong>
+                            <dl class="list-info">
+                                <div>
+                                    <dt>Genre</dt>
+                                    <dd>Action</dd>
+                                </div>
+                                <div class="item-star">
+                                    <dt>Rate</dt>
+                                    <dd>4.5</dd>
+                                </div>
+                                <div>
+                                    <dt>Date</dt>
+                                    <dd>Nov 24, 2021</dd>
+                                </div>
+                                <div>
+                                    <dt>Cast</dt>
+                                    <dd class="multi-ellipsis">Kaya Scoldelario, Kaya Scodelario, Robbie Amell,
+                                        Hannah John-Kamen, Avan Jogia, Tom Hopper</dd>
+                                </div>
+                            </dl>
+                        </article>
+                        <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i class="uil uil-play-circle"></i>Trailer</a>
+                    </li>
+                    <li>
+                        <article>
+                            <h4 class="sr-only">Movie Detail</h4>
+                            <a href="#none" class="link-movie">
+                                <img src="src/images/king.jpg" alt="King Richard">
+                            </a>
+                            <strong class="title-movie sl-ellipsis">King Richard</strong>
+                            <dl class="list-info">
+                                <div>
+                                    <dt>Genre</dt>
+                                    <dd>Drama</dd>
+                                </div>
+                                <div class="item-star">
+                                    <dt>Rate</dt>
+                                    <dd>4.5</dd>
+                                </div>
+                                <div>
+                                    <dt>Date</dt>
+                                    <dd>Nov 19, 2021</dd>
+                                </div>
+                                <div>
+                                    <dt>Cast</dt>
+                                    <dd class="multi-ellipsis">Will Smith, Will Smith, Aunjanue Ellis, Jon Bernthal,
+                                        Saniyya Sidney, Demi Singleton, Tony Goldwyn</dd>
+                                </div>
+                            </dl>
+                        </article>
+                        <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i
+                                class="uil uil-play-circle"></i>Trailer</a>
+                    </li>
+                    <li>
+                        <article>
+                            <h4 class="sr-only">Movie Detail</h4>
+                            <a href="#none" class="link-movie">
+                                <img src="src/images/cmon.jpg" alt="C'mon C'mon">
+                            </a>
+                            <strong class="title-movie sl-ellipsis">C'mon C'mon</strong>
+                            <dl class="list-info">
+                                <div>
+                                    <dt>Genre</dt>
+                                    <dd>Drama</dd>
+                                </div>
+                                <div class="item-star">
+                                    <dt>Rate</dt>
+                                    <dd>4.5</dd>
+                                </div>
+                                <div>
+                                    <dt>Date</dt>
+                                    <dd>Nov 26, 2021</dd>
+                                </div>
+                                <div>
+                                    <dt>Cast</dt>
+                                    <dd class="multi-ellipsis">Joaquin Phoenix, Gaby Hoffmann, Woody Norman, Scoot
+                                        McNairy, Jaboukie Young White</dd>
+                                </div>
+                            </dl>
+                        </article>
+                    <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i
+                            class="uil uil-play-circle"></i>Trailer</a>
+                    </li>
+                    <li>
+                        <article>
+                            <h4 class="sr-only">Movie Detail</h4>
+                            <a href="#none" class="link-movie">
+                                <img src="src/images/elcanto.jpg" alt="The Matrix Resurrections">
+                            </a>
+                            <strong class="title-movie sl-ellipsis">The Matrix Resurrections</strong>
+                            <dl class="list-info">
+                                <div>
+                                    <dt>Genre</dt>
+                                    <dd>Action</dd>
+                                </div>
+                                <div class="item-star">
+                                    <dt>Rate</dt>
+                                    <dd>4.5</dd>
+                                </div>
+                                <div>
+                                    <dt>Date</dt>
+                                    <dd>Nov 22, 2021</dd>
+                                </div>
+                                <div>
+                                    <dt>Cast</dt>
+                                    <dd class="multi-ellipsis">Keanu Reeves, Carrie-Anne Moss, Yahya Abdul-Mateen
+                                        II, Neil Patrick Harris, Jada Pinkett Smith, Daniel Bernhardt, Jessica Henwick</dd>
+                                </div>
+                            </dl>
+                        </article>
+                    <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i
+                            class="uil uil-play-circle"></i>Trailer</a>
+                    </li>
+                    <li>
+                        <article>
+                            <h4 class="sr-only">Movie Detail</h4>
+                            <a href="#none" class="link-movie">
+                                <img src="src/images/spider.jpg" alt="Spider-Man: No Way Home">
+                            </a>
+                            <strong class="title-movie sl-ellipsis">Spider-Man: No Way Home</strong>
+                            <dl class="list-info">
+                                <div>
+                                    <dt>Genre</dt>
+                                    <dd>Action</dd>
+                                </div>
+                                <div class="item-star">
+                                    <dt>Rate</dt>
+                                    <dd>4.5</dd>
+                                </div>
+                                <div>
+                                    <dt>Date</dt>
+                                    <dd>Nov 17, 2021</dd>
+                                </div>
+                                <div>
+                                    <dt>Cast</dt>
+                                    <dd class="multi-ellipsis">Tom Holland, Tom Holland, Zendaya, Benedict
+                                        Cumberbatch, Jon Favreau, Jacob Batalon</dd>
+                                </div>
+                            </dl>
+                        </article>
+                    <a href="#none" class="link-ticket">Ticket</a><a href="#none" class="link-trailer"><i
+                            class="uil uil-play-circle"></i>Trailer</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
 
-  <!-- footer -->
-  <footer class="cont-company">
-    <section class="cont-coInfo">
-      <h2 class="sr-only">Company Info</h2>
-      <strong class="title-company">CineLand</strong>
-      <dl class="list-coInfo">
-        <dt>About Us</dt>
-        <dd></dd>
-        <dt>Contact Us</dt>
-        <dd></dd>
-        <dt>Careers</dt>
-        <dd></dd>
-        <dt>FAQs</dt>
-        <dd></dd>
-      </dl>
-      <em class="sr-only">SNS Link</em>
-      <ul class="list-sns">
-        <li><a href="#none" class="link-twitter"><i class="uil uil-twitter"></i></a></li>
-        <li><a href="#none" class="link-insta"><i class="uil uil-instagram-alt"></i></a></li>
-        <li><a href="#none" class="link-facebook"><i class="uil uil-facebook-f"></i></a></li>
-      </ul>
-      <small class="text-copy">Copyright &copy;Eden2021. All rights Reserved.</small>
-    </section>
-  </footer>
-</body>
+        <!-- footer -->
+        <footer class="cont-company">
+            <section class="cont-coInfo">
+                <h2 class="sr-only">Company Info</h2>
+                <strong class="title-company">CineLand</strong>
+                <dl class="list-coInfo">
+                    <dt>About Us</dt>
+                    <dd></dd>
+                    <dt>Contact Us</dt>
+                    <dd></dd>
+                    <dt>Careers</dt>
+                    <dd></dd>
+                    <dt>FAQs</dt>
+                    <dd></dd>
+                </dl>
+                <em class="sr-only">SNS Link</em>
+                <ul class="list-sns">
+                    <li>
+                        <a href="#none" class="link-twitter">
+                            <i class="uil uil-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none" class="link-insta">
+                            <i class="uil uil-instagram-alt"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#none" class="link-facebook">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                    </li>
+                </ul>
+                <small class="text-copy">Copyright &copy;Eden2021. All rights Reserved.</small>
+            </section>
+        </footer>
+    </body>
 </html>

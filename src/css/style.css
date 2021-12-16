@@ -107,3 +107,8 @@ body {
 .project__list:hover .projcet__img img {
     filter: blur(2px);
 }
+.footer{
+    color: var(--primary--color);
+    text-align: center;
+    margin-top: 5rem;
+}

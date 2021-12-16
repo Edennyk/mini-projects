@@ -1,5 +1,7 @@
-# mini-projects
-- Toy projects created using html, css, and Vanilla JavaScript and purpose for studying
-
-# 01 - Movie List Preview page
-- HTML, CSS only
+# mini-projects 
+* Toy projects created using html, css, and Vanilla JavaScript and purpose for studying
+* No limit. Add new project anytime.
+* Live Demo: <https://edennyk.github.io/mini-projects/>
+-------------------------------------------------------------------------------------
+## 01. Movie Preview page
+- Designed simple movies list preview page : html, css
