@@ -1,7 +1,7 @@
 /* utility */
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #e3f6f5;
+    background-color: #fffffe;
 }
 /* screen reader only */
 .sr-only {
@@ -32,7 +32,7 @@ body {
     width: 1006px;
     margin: 86px auto 0;
     padding: 0 27px 29px;
-    border: 2px solid #2d334a;
+    border: 2px solid #6C3CE7;
     border-radius: 15px;
     background-color: #fffffe;
 }
@@ -41,6 +41,7 @@ body {
     text-align: center;
     line-height: 28px;
     padding: 38px 0;
+    color: #2f1a8d;
 }
 /* nav */
 .cont-movie .nav-movie {
@@ -51,7 +52,7 @@ body {
     content: '';
     width: 650px;
     height: 2px;
-    background: #232946;
+    background: #DFDFDF;
     margin: 0 auto;
 }
 .cont-movie .list-movie {
@@ -64,13 +65,15 @@ body {
 .cont-movie .list-movie li+li {
     margin-left: 60px;
 }
-
+.link-nav{
+    color: #2f1a8d;
+}
 .cont-movie .list-movie .on .link-nav {
-    color: #121629;
+    color: #6C3CE7;
     font-weight: 700;
 }
 .link-nav:hover {
-    color: #ffd803;
+    color: #6C3CE7;
 }
 /*  main movie content */
 .cont-movie .list-movieInfo {
@@ -81,7 +84,7 @@ body {
 .cont-movie .list-movieInfo .title-movie {
     font-weight: bold;
     line-height: 23px;
-    color: #232946;
+    color: #6C3CE7;
 }
 .cont-movie .list-movieInfo li {
     overflow: hidden;
@@ -121,7 +124,7 @@ body {
     margin: 11px 0px 0 0;
 }
 .link-trailer i{
-    color: #ffd803;
+    color: #6C3CE7;
     font-size: 15px;
 }
 .cont-movie .list-movieInfo .link-movie {
@@ -159,7 +162,7 @@ body {
 .link-ticket:hover,
 .link-trailer:hover {
     cursor: pointer;
-    color: #ffd803;
+    color: #6C3CE7;
 }
 .list-movieInfo .list-info .multi-ellipsis {
     width: 140px;
@@ -203,10 +206,10 @@ body {
     line-height: 118px;
     border-bottom: 2px solid #232946;
     font-weight: 700;
-    color: #232946;
+    color: #2f1a8d;
 }
 .title-company:hover {
-    color: #ffd803;
+    color: #6C3CE7;
     cursor: pointer;
 }
 .cont-company .list-coInfo {
@@ -223,7 +226,7 @@ body {
     margin-right: 5px;
 }
 .cont-company .list-coInfo dt:hover {
-    color: #ffd803;
+    color: #6C3CE7;
     cursor: pointer;
 }
 .cont-company .list-coInfo dd {
@@ -260,11 +263,11 @@ body {
 } */
 .cont-company .list-sns i {
     font-size: 25px;
-    color: #272343;
+    color: #2f1a8d;
 }
 .cont-company .list-sns i:hover {
     cursor: pointer;
-    color: #ffd803;
+    color: #6C3CE7;
 }
 .cont-company .text-copy {
     float: right;
