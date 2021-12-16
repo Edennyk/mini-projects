@@ -93,8 +93,8 @@ body {
     left: 0;
     opacity: 0;
     transition: opacity 0.5s;
-    background: rgba(108,60,231,0.3);
-    color: #170055;
+    background: rgba(70,63,87,0.3);
+    color: #FDFFBC;
 
     /* position the text in t’ middle*/
     display: flex;
