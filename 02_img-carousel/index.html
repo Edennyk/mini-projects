@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Image Carousel</title>
+        <!-- style sheet -->
+        <link rel="stylesheet" href="src/styles/style.css">
+        <!-- google font -->
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+            rel="stylesheet">
+        <!-- Favicon -->
+        <link rel="icon" type="imgs/png" href="./src/imgs/favicon.ico"/>
+    </head>
+
+    <body>
+        <section id="carousel">
+            <h1 class="util-ir">Imges Carousel</h1>
+            <div class="carousel-container">
+                <ul class="carousel-list">
+                    <li class="carousel-item now">
+                        <img src="./src/imgs/img1.jpg" alt="img1">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="./src/imgs/img2.jpg" alt="img2">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="./src/imgs/img3.jpg" alt="img3">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="./src/imgs/img4.jpg" alt="img4">
+                    </li>
+                    <li class="carousel-item">
+                        <img src="./src/imgs/img5.jpg" alt="img5">
+                    </li>
+                </ul>
+            </div>
+            <button type="button" class="prev-btn">&lt;Prev</button>
+            <button type="button" class="next-btn">Next&gt;</button>
+        </section>
+
+        <!-- image upload button -->
+        <form action="" class="img-upload">
+            <input type="file" accept="image/*" id="img-upload-input">
+            <label for="img-upload-input">Upload Image</label>
+        </form>
+        
+        <!-- script -->
+        <script src="src/js/main.js"></script>
+    </body>
+</html>

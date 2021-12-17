@@ -3,5 +3,8 @@
 * No limit. Add new project anytime.
 * Live Demo: <https://edennyk.github.io/mini-projects/>
 -------------------------------------------------------------------------------------
-## 01. Movie Preview page
-- Designed simple movies list preview page : html, css
+### 01. Movie Preview page
+- Designed simple movies list preview page
+### 02. Imges Carousel
+- Image slider
+- filter, transform for 3D way
