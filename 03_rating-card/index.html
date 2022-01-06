@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="imgs/png" href="./src/imgs/favicon.ico" />
+    <!-- style sheet -->
+    <link rel="stylesheet" href="src/styles/style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Rating Card</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="movie-container">
+            <section class="movie">
+                <!-- movie poster -->
+                <div class="poster-conainer">
+                    <img src="../03_rating-card/src/img/poster.jpg" alt="poster">
+                </div>
+                <!-- movie content -->
+                <div class="content">
+                    <div class="content-type">
+                        <span>Fantasy</span>
+                        <span>Family</span>
+                    </div>
+                    <h3 class="content-title">Harry Potter and the Sorcerer's Stone</h3>
+                    <div class="content-favorite">
+                        <button class="button-thumsup">
+                            <i class="uil uil-thumbs-up icon-thumsup"></i>
+                        </button>
+                        <button class="button-like">
+                            <i class="uil uil-heart-alt icon-heart"></i>
+                        </button>
+                    </div>
+                    <!-- movie rating -->
+                    <div class="content-star">
+                        <em class="start-average">
+                            Rating 4.5/5
+                        </em>
+                        <div class="start-point-container">
+                            <div class="start-backgroud">
+                                <img src="./src/img/icon_empty_star.png" alt="1" data-point="1">
+                                <img src="./src/img/icon_empty_star.png" alt="2" data-point="2">
+                                <img src="./src/img/icon_empty_star.png" alt="3" data-point="3">
+                                <img src="./src/img/icon_empty_star.png" alt="4" data-point="4">
+                                <img src="./src/img/icon_empty_star.png" alt="5" data-point="5">
+                            </div>
+                            <button class="remove-star">
+                                <i class="uil uil-times-circle icon-remove"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

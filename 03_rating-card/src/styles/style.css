@@ -1,0 +1,103 @@
+@import 'reset.css';
+
+#app{
+    overflow:scroll;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+img{
+    width: 100%;
+}
+.movie-container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 672px;
+    margin: 0 auto;
+}
+.movie{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 64px;
+}
+.poster-conainer{
+    position: absolute;
+    left: -64px;
+    width: 281px;
+    height: 396px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.content{
+    width: 608px;
+    height: 500px;
+    background-color:#333333;
+    border-radius: 15px;
+    color: #fff;
+    padding:64px 0 0 266px;
+    box-sizing: border-box;
+}
+.content-type span{
+    color: #BDBDBD;
+}
+.content-type span + span::before{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 13px;
+    margin: 0 7px -1px 3px;
+    background-color: #BDBDBD;
+}
+.content-title{
+    margin: 13px 0 114px 0;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.content-favorite{
+    display: flex;
+    margin-bottom: 22px;
+}
+.content-favorite button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 2px solid #FFFFFF;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.button-thumsup .icon-thumsup{
+  font-size: 30px;
+}
+.button-thumsup:hover{
+    background: #3E00FF;
+}
+.button-like .icon-heart{
+    font-size: 30px;
+}
+.button-like:hover{
+    background: #FF005C;
+}
+.start-average{
+    display: block;
+    margin-bottom: 16px;
+}
+.start-point-container{
+    display:flex;
+    align-items: center;
+}
+.start-backgroud{
+    display: flex;
+}
+.start-backgroud img{
+    width: 51px;
+    height: 51px;
+}
+.remove-star{
+    margin-left: 11px;
+}
+.remove-star .icon-remove{
+    font-size: 22px;
+}
