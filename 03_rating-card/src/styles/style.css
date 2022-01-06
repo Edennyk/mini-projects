@@ -68,16 +68,13 @@ img{
     border-radius: 100%;
     margin-right: 20px;
 }
-.button-thumsup .icon-thumsup{
+.button-thumsup,.button-heart {
   font-size: 30px;
 }
-.button-thumsup:hover{
+.button-thumsup.on {
     background: #3E00FF;
 }
-.button-like .icon-heart{
-    font-size: 30px;
-}
-.button-like:hover{
+.button-heart.on{
     background: #FF005C;
 }
 .start-average{
